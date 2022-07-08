@@ -1,0 +1,14 @@
+.Back{
+    background-image: url('./Background.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Maps{
+    display: flex;
+    width: 100vw;
+    height: 400px;
+    margin-top: 45vw;
+    border: 0px;
+}

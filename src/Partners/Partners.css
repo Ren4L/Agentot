@@ -1,0 +1,37 @@
+.PartnersCont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vw;
+    margin-top: 27vw;
+}
+
+.PartnersName{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: CormorantGaramond;
+    color: white;
+    font-size: 5vw;
+}
+
+.PartnersCardList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 10vw;
+    width: 90vw;
+    height: 25vw;
+}
+
+.PartnersCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    height: 10vw;
+    background-color: white;
+}

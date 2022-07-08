@@ -1,0 +1,40 @@
+.FooterCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    background-color: #202020;
+    width: 100vw;
+    height: 14vw;
+}
+
+.BlockList{
+    display: flex;
+    width: 50vw;
+    height: 40%;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+    justify-content: space-between;
+}
+
+.BlockCont{
+    line-height: 1.3vw;
+    width: 14vw;
+    font-family: LatoLight;
+}
+
+.BlockName{
+    color: White;
+    font-size: 1.3vw;
+    padding-bottom: 1vw;
+}
+
+.BlockText{
+    color: #898787;
+    font-size: 1vw;
+}
+
+.Copyright{
+    color: #898787;
+    font-size: 1.3vw;
+}

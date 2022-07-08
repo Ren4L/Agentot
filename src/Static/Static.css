@@ -1,0 +1,14 @@
+
+@font-face{
+    font-family: "CormorantGaramond"; 
+    src: url('../Static/Cormorant-Bold.otf') format("truetype"); 
+    font-style: normal; 
+    font-weight: bold; 
+}
+
+@font-face{
+    font-family: "LatoLight"; 
+    src: url('../Static/Lato-Light.ttf') format("truetype"); 
+    font-style: normal; 
+    font-weight: lighter; 
+}

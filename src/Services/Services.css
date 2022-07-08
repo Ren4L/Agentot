@@ -1,0 +1,54 @@
+
+.ServicesCont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vw;
+    margin-top: 24vw;
+}
+
+.ServecesName{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: CormorantGaramond;
+    color: white;
+    font-size: 8vw;
+}
+
+.CardList{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 85vw;
+    margin-top: 3vw;
+}
+
+.Card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./BackgroundCard.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    font-family: LatoLight;
+    font-size: 1.4vw;
+    width: 25vw;
+    height: 15vw;
+}
+
+.CardImg{
+    width: 36px;
+}
+
+.CardText{
+    text-align: center;
+    margin-top: 1vw;
+    width: 80%;
+}
