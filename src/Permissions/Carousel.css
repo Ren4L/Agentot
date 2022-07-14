@@ -1,12 +1,12 @@
   .CaruselCont {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-around;
-      width: 100%;
-      height: 100vh;
-      text-align: center;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+    font-size: 1.3vw;
+  }
   
   .Carousel {
     width: 100%;
@@ -23,8 +23,8 @@
     bottom: 0;
     left: 0;
     margin: auto;
-    width: 350px;
-    height: 525px;
+    width: 20vw;
+    min-width: 166px;
     z-index: 99;
     filter: brightness(1);
     filter: blur(0px);
@@ -100,4 +100,35 @@
     border: 2px solid #B9B9B9;
     background-color: #B9B9B9;
     border-radius: 50%;
+  }
+
+  @media (max-width:960px) {
+    .ellipseCont{
+      width: 15vw;
+    }
+    .Arrows{
+      width: 50vw;
+    }
+    .CaruselCont{
+      height: 80vw;
+    }
+    .CaruselCont{
+      font-size: 2vw;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .card--leftX2{display: none;}
+    .card--rightX2{display: none;}
+    .ellipseCont{
+      width: 30vw;
+    }
+    .Arrows{
+      width: 80vw;
+    }
+    .CaruselCont{
+      height: 100vw;
+      font-size: 5vw;
+      margin-top: 0vw;
+    }
   }

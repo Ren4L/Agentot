@@ -10,7 +10,7 @@ export default function Footer(){
                 <Block name='Время работы' textOne='Пн-Пт с 8.30 – 17.00, Суббота, Воскресенье – выходной' textTwo=''/>
                 <Block name='Директор' textOne='Бандысик Анна Мечиславовна' textTwo='Тел/факс (0152) 44 40 14, gsm: +375292665516'/>
             </div>
-            <div className='Copyright'>Copyright 2022. Designed by the S&C group</div>
+            <div className='Copyright'>Copyright 2022. <a href='https://instagram.com/frenron?igshid=YmMyMTA2M2Y=' style={{color:'#898787'}} >Designed by the S&C group</a></div>
         </div>
     )
 }

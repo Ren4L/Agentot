@@ -5,7 +5,6 @@
     align-items: center;
     background-color: #202020;
     width: 100vw;
-    height: 14vw;
 }
 
 .BlockList{
@@ -37,4 +36,48 @@
 .Copyright{
     color: #898787;
     font-size: 1.3vw;
+}
+
+@media (max-width: 960px) {
+    .FooterCont{
+        padding: 5vw 0vw;
+    }
+    .BlockName{
+        font-size: 1.8vw;
+    }
+    .BlockText{
+        font-size: 1.5vw;
+    }
+    .BlockCont{
+        line-height: 1.8vw;
+        width: 17vw;
+    }
+    .BlockList{
+        width: 70vw;
+    }
+    .Copyright{
+        font-size: 1.8vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .FooterCont{
+        padding: 5vw 0vw;
+    }
+    .BlockName{
+        font-size: 3vw;
+    }
+    .BlockText{
+        font-size: 2.5vw;
+    }
+    .BlockCont{
+        line-height: 3vw;
+        width: 25vw;
+    }
+    .BlockList{
+        width: 90vw;
+    }
+    .Copyright{
+        font-size: 3vw;
+    }
 }

@@ -9,6 +9,21 @@
     display: flex;
     width: 100vw;
     height: 400px;
-    margin-top: 45vw;
+    margin-top: 15vw;
     border: 0px;
+}
+
+@media (max-width: 960px) {
+    .Back{
+        background-image: url('./BackgroundTablet.png');
+        background-size: contain;
+    }
+}
+
+@media (max-width: 500px) {
+    .Back{
+        background-image: url('./BackgroundPhone.jpg');
+        background-size: cover;
+        background-position: top;
+    }
 }

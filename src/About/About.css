@@ -2,8 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 50vw;
-    margin-top: 15vw;
+    margin-top: 24vw;
 }
 
 .AboutName{
@@ -55,6 +54,11 @@
     margin-top: 3vw;
 }
 
+.AboutDirector img{
+    width: 25vw;
+    min-width: 200px;
+}
+
 .AboutTextContTwo{
     display: flex;
     flex-direction: column;
@@ -62,3 +66,71 @@
     align-items: center;
     width: 40vw;
 }
+
+.AboutFooter{
+    width: 47%;
+    margin-top: 5vw
+}
+
+@media (max-width: 960px) {
+    .AboutTextContOne{
+        width: 80%;
+    }
+    .AboutTextContTwo{
+        width: 100%;
+    }
+    .AboutTextOne{
+        width: 100%;
+        font-size: 2vw;
+    }
+    .AboutTextTwo{
+        width: 80%;
+        font-size: 1.5vw;
+    }
+    .AboutDirector{
+        width: 80%;
+    }
+    .AboutFooter{
+        width: 80%;
+    }
+}
+
+@media (max-width: 800px) {
+    .AboutTextOne{
+        font-size: 2.5vw;
+    }
+    .AboutTextTwo{
+        line-height: 2vw;
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .AboutTextContOne{
+        width: 90%;
+    }
+    .AboutTextContTwo{
+        width: 100%;
+    }
+    .AboutTextOne{
+        width: 100%;
+        font-size: 3vw;
+    }
+    .AboutTextTwo{
+        width: 100%;
+        font-size: 3vw;
+        color: white;
+        line-height: 3.5vw;
+    }
+    .AboutDirector{
+        width: 90%;
+    }
+    .AboutFooter{
+        width: 90%;
+    }
+    .AboutDirector{
+        flex-direction: column;
+    }
+}
+
+

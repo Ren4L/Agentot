@@ -3,8 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 50vw;
-    margin-top: 24vw;
+    margin-top: 28vw;
 }
 
 .ServecesName{
@@ -41,6 +40,12 @@
     font-size: 1.4vw;
     width: 25vw;
     height: 15vw;
+    margin-top: 2vw;
+    transition: 0.5s ease-in-out;
+}
+
+.Card:hover{
+    transform: scale(1.2);
 }
 
 .CardImg{
@@ -52,3 +57,64 @@
     margin-top: 1vw;
     width: 80%;
 }
+
+@media (max-width: 1150px) {
+    .Card{
+        width: 25vw;
+        height: 12vw;
+        margin-top: 1vw;
+    }
+    .CardList{
+        margin-top: 0vw;
+    }
+    .ServicesCont{
+        padding-bottom: 7vw;
+    }
+}
+
+@media (max-width: 960px) {
+    .CardList{
+        width: 100vw;
+    }
+    .ServicesCont{
+        margin-top: 32vw;
+        padding-bottom: 0vw;
+        margin-bottom: -4vw;
+    }
+    .Card{
+        width: 39vw;
+        height: 25vw;
+        font-size: 2vw;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .ServicesCont{
+        margin-top: 28vw;
+    }
+}
+
+@media (max-width: 700px) {
+    .ServicesCont{
+        margin-top: 26vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .ServicesCont{
+        margin-top: 24vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .Card{
+        width: 80vw;
+        height: 28vw;
+        font-size: 3.5vw;
+    }
+    .ServicesCont{
+        margin-top: 20vw;
+    }
+}
+

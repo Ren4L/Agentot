@@ -2,8 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 50vw;
-    margin-top: 27vw;
+    margin-top: 17vw;
 }
 
 .PartnersName{
@@ -22,9 +21,8 @@
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-top: 10vw;
-    width: 90vw;
-    height: 25vw;
+    width: 100vw;
+    margin-top: 5vw;
 }
 
 .PartnersCard{
@@ -32,6 +30,40 @@
     align-items: center;
     justify-content: center;
     width: 20vw;
+    min-width: 200px;
     height: 10vw;
+    min-height: 100px;
     background-color: white;
+    margin: 2vw;
+    border-radius: 15px 0px 15px 0px;
+}
+
+/* .PartnersCard img{
+    width: 8vw;
+    min-width: 100px;
+} */
+
+@media (max-width: 960px) {
+    .PartnersCard{
+        width: 30vw;
+        height: 20vw;
+        margin: 3vw;
+    }
+    .PartnersCardList{
+        width: 100vw;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 500px) {
+    .PartnersCont{
+        margin-top: 15vw;
+    }
+    .PartnersCard{
+        width: 70vw;
+        height: 35vw;
+    }
+    .PartnersCard img{
+        width: 140px;
+    }
 }
