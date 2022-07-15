@@ -24,7 +24,7 @@
     left: 0;
     margin: auto;
     width: 20vw;
-    min-width: 166px;
+    min-width: 100px;
     z-index: 99;
     filter: brightness(1);
     filter: blur(0px);
@@ -130,5 +130,8 @@
       height: 100vw;
       font-size: 5vw;
       margin-top: 0vw;
+    }
+    .card{
+      width: 25vw;
     }
   }
